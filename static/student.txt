@@ -1,0 +1,5 @@
+1001, Lim, Kyle, bsit, 3
+1002, Lee, Leo, bscs, 2
+1003, Lin, James, bsit, 4
+1004, Yu, Jaackie, bsis, 1
+

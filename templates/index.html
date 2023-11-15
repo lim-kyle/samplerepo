@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <table class="w3-table-all w3-card-4 w3-animate-top">
+        <tr>
+            {% for h in header %}
+                <th>{{ h | upper }}</th>
+            {% endfor %}
+        </tr>
+
+            {% for stud in content %}
+            <tr>
+                <td> {{ stud[0] | upper }}</td>
+                <td> {{ stud[1] | upper }}</td>
+                <td> {{ stud[2] | upper }}</td>
+                <td> {{ stud[3] | upper }}</td>
+                <td> {{ stud[4] | upper }}</td>
+            </tr>
+            {% endfor %}
+    </table>
+
+{% endblock %}
